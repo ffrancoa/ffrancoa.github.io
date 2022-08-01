@@ -28,13 +28,21 @@ thead {
   padding: revert;
 
   &:hover>.hanchor {
-    opacity: 1;
+    opacity: 0.95;
   }
 }
 
+h2 {
+  font-size: 1.35em;
+}
+
+h3 {
+  font-size: 1.20em;
+}
+
 .hanchor {
-  font-family: Consolas;
-  margin-left: -1em;
+  font-family: var(--font-mono);
+  margin-left: 0em; // Mover los títulos.
   opacity: 0.3;
   transition: opacity 0.3s ease;
   color: var(--secondary);
@@ -458,7 +466,7 @@ header {
   align-items: center;
 
   &>h1 {
-    font-size: 2.5em; // Tamaño del Header
+    font-size: 2.5em; // Tamaño del Título de la Página
   }
 
   &>nav {
@@ -594,7 +602,7 @@ header {
     padding: 0 1em;
     margin-bottom: 1em;
 
-    & h3 {
+    & h3 { // Propiedades en el apartado de Etiquetas
       opacity: 1;
       font-weight: 700;
       margin-bottom: 0em;
