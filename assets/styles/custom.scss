@@ -1,0 +1,67 @@
+// Add your own CSS here!
+
+:root {
+  --light: #F7F3EE;
+  --dark: #504945;
+  --secondary: #CAA64E;
+  --tertiary: #79740E;
+  --visited: #427B58;
+  --primary: #D3869B;
+  --gray: #3C3836;
+  --lightgray: #EBE5DC;
+  --outlinegray: #E0D3B8;
+  --million-progress-bar-color: var(--secondary);
+  --copy-button-color: var(--code-title);
+  --code-background: #F2ECE3;
+  --code-title: #BEA88A;
+  --code-comments: #70809B;
+  --blue-syntax: #256EB1;
+  --red-syntax: #CC241D;
+  --green-syntax: #689D6A;
+  --green-syntax2: #427B58;
+  --yellow-syntax: #D79921;
+  --purple-syntax: #B16286;
+  --highlight-color: #EBE2D4E0;
+  --examples-header: #BF616A;
+  --examples-background: #EEE7DD;
+  --table-header: #DB6057;
+  --table-background:#EBE5DC;
+  --table-body-background: #FAF8F4;
+
+  ::selection {
+    background: var(--highlight-color);
+  }
+}
+
+[saved-theme="dark"] {
+  --light: #282828 !important;
+  --dark: #D5C4A1 !important;
+  --secondary: #D79921 !important;
+  --tertiary: #98971A !important;
+  --visited: #4a575e !important;
+  --primary: #D3869B !important;
+  --gray: #EBDBB2 !important;
+  --lightgray: #504945 !important;
+  --outlinegray: #3C3836 !important;
+  --copy-button-color: var(--tertiary);
+  --code-background: #32302F !important;
+  --code-title: #CFB696 !important;
+  --code-comments: #928374 !important;
+  --blue-syntax: #076678 !important;
+  --red-syntax: #FB4934 !important;
+  --green-syntax: #427B58 !important;
+  --green-syntax2: #98971A !important;
+  --yellow-syntax: #D79921 !important;
+  --purple-syntax: #B16286 !important;
+  --highlight-color:#4D4845EC !important;
+  --examples-header: #BF616A !important;
+  --examples-background: #32302F !important;
+  --table-header: #DB6057 !important;
+  --table-background:#32302F !important;
+  --table-body-background: #262626 !important;
+
+  ::selection {
+    color: #E6CFB3;
+    background: var(--highlight-color);
+  }
+}

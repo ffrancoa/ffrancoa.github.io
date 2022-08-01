@@ -1,0 +1,20 @@
+name: Francesco A. Franco
+enableToc: false
+openToc: false
+enableLinkPreview: true
+enableLatex: true
+enableCodeBlockTitle: true
+enableCodeBlockCopy: true
+enableCallouts: true
+enableSPA: true
+enableFooter: true
+enableContextualBacklinks: true
+enableRecentNotes: false
+
+description:
+  ¡Qué tal!, me llamo Francesco y en este pequeño espacio atesoro diversas memorias acerca de Geotecnia,
+  Programación y otros temas que me apasionan. ¡Espero encuentres algo que te guste!
+page_title: "Memorias de Geotecnia 🌙"
+links:
+  - link_name: Github
+    link: https://github.com/ffrancoa/ffrancoa.github.io
