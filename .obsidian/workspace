@@ -9,9 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "content/notes/10-06-2022.md",
+            "file": "content/notes/27-04-2022.md",
             "mode": "preview",
-            "source": false
+            "source": true
           }
         }
       }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/notes/10-06-2022.md",
+                "file": "content/notes/27-04-2022.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,8 @@
   },
   "active": "851f252707490f69",
   "lastOpenFiles": [
+    "content/notes/25-04-2022.md",
+    "content/notes/27-04-2022.md",
     "content/notes/12-06-2022.md",
     "content/notes/10-06-2022.md",
     "content/_index.md",
@@ -96,8 +98,6 @@
     "notes/13-06-2022.md",
     "content/notes/nota-1.md",
     "_index.md",
-    "__index.md",
-    "content/templates/post.md",
-    "content/notes/may-7-primera_nota.md"
+    "__index.md"
   ]
 }
