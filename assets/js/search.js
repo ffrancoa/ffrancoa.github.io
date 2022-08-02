@@ -198,8 +198,8 @@ const highlight = (content, term) => {
     // display
     if (finalResults.length === 0) {
       results.innerHTML = `<button class="result-card">
-                    <h3>No results.</h3>
-                    <p>Try another search term?</p>
+                    <h3>Sin resultados.</h3>
+                    <p>¿Y si pruebas con algo distinto?</p>
                 </button>`
     } else {
       results.innerHTML = finalResults
