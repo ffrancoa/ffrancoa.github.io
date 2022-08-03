@@ -3,6 +3,7 @@
 :root {
   --light: #F7F3EE;
   --dark: #504945;
+  --dark2:#665C54;
   --secondary: #CAA64E;
   --tertiary: #79740E;
   --visited: #427B58;
@@ -36,11 +37,12 @@
 [saved-theme="dark"] {
   --light: #282828 !important;
   --dark: #D5C4A1 !important;
+  --dark2:#CEBD8B !important;
   --secondary: #D79921 !important;
   --tertiary: #98971A !important;
   --visited: #4a575e !important;
   --primary: #D3869B !important;
-  --gray: #EBDBB2 !important;
+  --gray: #ECDDB8 !important;
   --lightgray: #504945 !important;
   --outlinegray: #3C3836 !important;
   --copy-button-color: var(--tertiary);
