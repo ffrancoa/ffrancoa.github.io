@@ -1,7 +1,7 @@
 // Replace this with your own font imports!
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;0,700;1,500&family=Red+Hat+Mono:wght@500;700&family=Vollkorn:ital@1&display=block');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400&family=Red+Hat+Mono:ital,wght@0,500;0,700;1,500&family=Vollkorn:ital@1&display=block');
 :root {
-  --font-body: "Raleway";
+  --font-body: "Poppins";
   --font-header: "Vollkorn";
   --font-mono: "Red Hat Mono";
 
@@ -33,16 +33,16 @@ thead {
 }
 
 h1 {
-  font-size: 1.55em;
+  font-size: 1.70em;
 }
 
 h2 {
-  font-size: 1.35em;
+  font-size: 1.45em;
   color: var(--dark2);
 }
 
 h3 {
-  font-size: 1.18em;
+  font-size: 1.25em;
 }
 
 .hanchor {
@@ -145,7 +145,8 @@ p,
 tbody,
 li {
   font-family: var(--font-body);
-  font-size: 15px;
+  font-size: 0.90em;
+  font-weight: 100;
   color: var(--gray);
   text-align: justify;
   line-height: 1.5em;
@@ -175,7 +176,7 @@ th {
   background-color: var(--table-background);
   color: var(--table-header);
   font-family: var(--font-body);
-  font-size: 0.95em;
+  font-size: 0.90em;
 }
 
 td {
@@ -183,10 +184,10 @@ td {
   padding: 0.25em 0.5em;
   background-color: var(--table-body-background);
   font-family: var(--font-mono);
-  font-size: 0.85em;
+  font-size: 0.90em;
 }
 
-// Definition lists
+// Definition lists (Examples)
 
 dl {
   border: solid var(--light);
@@ -209,12 +210,13 @@ dt {
 
 dd {
   font-family: var(--font-mono);
-  font-size: 0.85em;
+  font-size: 0.90em;
   color: var(--gray);
 }
 
+// Sección de referencias de cada nota
 .footnotes p {
-  font-size: 0.85em;
+  font-size: 0.90em;
   margin: 0.5em 0;
 }
 
@@ -472,7 +474,7 @@ header {
   align-items: center;
 
   &>h1 {
-    font-size: 2.5em; // Tamaño del Título de la Página
+    font-size: 2.65em; // Page Title Size
   }
 
   &>nav {
@@ -608,7 +610,7 @@ header {
     padding: 0 1em;
     margin-bottom: 1em;
 
-    & h3 { // Propiedades en el apartado de Etiquetas
+    & h3 { // Propiedades en la sección de Etiquetas
       opacity: 1;
       font-weight: 700;
       margin-bottom: 0em;
