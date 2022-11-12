@@ -11,6 +11,6 @@ title: Memorias de Geotecnia 🌙
 
 # Acerca de mí
 
-¡Qué tal!, me llamo Francesco, actualmente curso el X Semestre de la carrera de Ingeniería Civil en la Universidad Nacional de Ingeniería (Lima, Perú) 🍂. Soy un apasionado por las Ciencias Geológicas 🌱, y cuando no ando programando, suelo disfrutar [componiendo canciones](https://francescofranco.bandcamp.com/track/nube) 🎵 o paseando con Bianca 🐕.
+Me llamo Francesco y soy egresado de la carrera de Ingeniería Civil en la Universidad Nacional de Ingeniería (Lima, Perú) 🍂, actualmente estudiante de Ingeniería Geofísica en el Instituto Politécnico Nacional (CDMX, México) 🍃. Soy un apasionado por las Ciencias Geológicas 🌱 y la Programación, que en sus ratos libres suele disfrutar [componiendo canciones](https://francescofranco.bandcamp.com/track/nube) 🎵 o paseando con su adorable Bianca 🐕.
 
 ![Cover](/notes/images/cover.jpg)
