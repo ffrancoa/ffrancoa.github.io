@@ -190,7 +190,7 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
       // highlight links
       linkNodes.transition().duration(200).attr("stroke", "var(--g-link-active)")
 
-      const bigFont = fontSize*1.35
+      const bigFont = fontSize*1.30
 
       // show text for self
       d3.select(this.parentNode)
@@ -232,7 +232,7 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
     .text((d) => content[d.id]?.title || d.id.replace("-", " "))
     .style('opacity', (opacityScale - 1) / 3.75)
     .style("pointer-events", "none")
-    .style('font-family', 'Red Hat Mono') // Use mono font
+    .style('font-family', 'DM Mono') // Use mono font
     .style('font-size', fontSize+'em')
     .raise()
     .call(drag(simulation))
