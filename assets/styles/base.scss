@@ -1,5 +1,5 @@
 // Replace this with your own font imports!
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400&family=Red+Hat+Mono:ital,wght@0,500;0,700;1,500&family=Vollkorn:ital@1&family=DM+Mono&display=block');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400&family=Red+Hat+Mono:ital,wght@0,500;0,700;1,500&family=Vollkorn:ital@1&family=DM+Mono:wght@500&display=block');
 :root {
   --font-body: "Poppins";
   --font-header: "Vollkorn";
@@ -30,6 +30,7 @@ thead {
 
   &:hover>.hanchor {
     opacity: 0.95;
+    color: var(--secondary);
   }
 }
 
@@ -58,7 +59,7 @@ h3 {
 p,
 ul,
 text {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: var(--font-body);
   color: var(--gray);
   fill: var(--gray);
   font-weight: revert;
@@ -170,7 +171,6 @@ blockquote {
 }
 
 // Tables
-
 table {
   border-collapse: collapse;
   padding: 1.5em;
@@ -668,7 +668,7 @@ header {
   border-radius: 5px;
   transform: translate(-50%, 40%);
   pointer-events: none;
-  transition: opacity 0.2s ease, transform 0.2s ease;
+  transition: opacity 0.25s ease, transform 0.25s ease;
   user-select: none;
   overflow-wrap: anywhere;
   box-shadow: 6px 6px 36px 0px rgba(0, 0, 0, 0.25);
