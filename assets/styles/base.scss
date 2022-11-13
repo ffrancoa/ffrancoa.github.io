@@ -221,8 +221,12 @@ dd {
 
 // Sección de referencias de cada nota
 .footnotes p {
-  font-size: 0.90em;
+  font-size: 0.85em;
   margin: 0.5em 0;
+
+  i, em {
+    color: var(--green-syntax2);
+  }
 }
 
 .pagination {
