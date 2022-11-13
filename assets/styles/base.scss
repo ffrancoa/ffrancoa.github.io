@@ -608,25 +608,26 @@ header {
   border-radius: 3px;
 }
 
+// Tags section
 .section-ul {
   list-style: none;
+  margin-top: 2em;
   padding-left: 0;
   
 
   &>li {
     border: 1px solid var(--outlinegray);
-    border-radius: 5px;
+    border-radius: 7px;
     padding: 0 1em;
     margin-bottom: 1em;
 
-    & h3 { // Propiedades en la sección de Etiquetas
-      opacity: 1;
-      font-weight: 700;
-      margin-bottom: 0em;
+    & h3 {
+      margin-bottom: 0.35em;
     }
 
     & .meta {
-      opacity: 0.6;
+      margin-top: 0.75em;
+      opacity: 0.6; // Lecture time
     }
   }
 }

@@ -190,7 +190,7 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
       // highlight links
       linkNodes.transition().duration(200).attr("stroke", "var(--g-link-active)")
 
-      const bigFont = fontSize*1.25
+      const bigFont = fontSize*1.35
 
       // show text for self
       d3.select(this.parentNode)

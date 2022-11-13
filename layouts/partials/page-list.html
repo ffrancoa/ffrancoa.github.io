@@ -9,7 +9,6 @@
                     <li><a href="{{ .Permalink }}">{{ .LinkTitle | title}}</a></li>
                     {{ end }}
                 </ul>
-                <p>{{- .Summary -}}{{if .Truncated}}...{{end}}</p>
             </div>
             <p class="meta">
                 Tiempo de lectura: {{ .ReadingTime }} minuto(s). Actualizado al {{ .Lastmod.Format "02/01/2006" }} 🍃
