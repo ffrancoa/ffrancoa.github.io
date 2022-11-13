@@ -189,7 +189,7 @@ td {
   padding: 0.35em 0.5em;
   background-color: var(--table-body-background);
   font-family: var(--font-mono);
-  font-size: small;
+  font-size: 0.93em;
 }
 
 // Definition lists (Examples)
@@ -687,7 +687,7 @@ header {
   &>.meta {
     margin-top: 0.25em;
     opacity: 0.5;
-    font-family: "JetBrains Mono", monospace;
+    font-family: var(--font-mono);
     font-size: 0.8rem;
   }
 
