@@ -35,16 +35,16 @@ thead {
 }
 
 h1 {
-  font-size: 1.75em;
+  font-size: 1.80rem;
 }
 
 h2 {
-  font-size: 1.50em;
+  font-size: 1.55rem;
   color: var(--dark2);
 }
 
 h3 {
-  font-size: 1.35em;
+  font-size: 1.40rem;
 }
 
 // Símbolo de # alrededor de los títulos
@@ -214,7 +214,7 @@ dt {
   
   font-family: var(--font-mono);
   font-weight: bold;
-  font-size: 0.95em;
+  font-size: 0.95rem;
   line-height: 2.40em;
   color: var(--examples-header);
 }
@@ -222,13 +222,13 @@ dt {
 dd { // Example body
   text-align: justify;
   font-family: var(--font-mono);
-  font-size: small;
+  font-size: 0.85rem;
   color: var(--gray);
 }
 
-// Sección de referencias de cada nota
+// Bibliography
 .footnotes p {
-  font-size: small;
+  font-size: 0.80rem;
   margin: 0.5em 0;
 
   i, em {
