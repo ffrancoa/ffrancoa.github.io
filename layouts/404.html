@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ .Lang }}">
 {{ partial "head.html" . }}
 
 <body>
@@ -7,8 +7,8 @@
     {{partial "darkmode.html" .}}
     <div class="centered">
         <h1>404.</h1>
-        <h3>Hey! Pareces un poco perdido. Esta memoria no existe, ¡pero aún quedan muchas por leer!.</h3>
-        <a href="{{ .Site.BaseURL }}">↳ ¿Y si regresamos?.</a>
+        <h3>¡Hey! Pareces un poco perdido. Esta memoria no existe, ¡pero aún quedan muchas por leer!</h3>
+        <a href="{{ .Site.BaseURL }}">↳ ¿Deseas volver?.</a>
     </div>
 </div>
 </body>

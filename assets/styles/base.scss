@@ -47,6 +47,7 @@ h3 {
   font-size: 1.35em;
 }
 
+// Símbolo de # alrededor de los títulos
 .hanchor {
   font-family: var(--font-mono);
   margin-left: 0em; // Mover los títulos.
@@ -168,6 +169,10 @@ blockquote {
     color: var(--reference-author);
     font-weight: 600;
   }
+
+  a {
+    color: var(--reference-author);
+  }
 }
 
 // Tables
@@ -223,7 +228,7 @@ dd { // Example body
 
 // Sección de referencias de cada nota
 .footnotes p {
-  font-size: 0.88em;
+  font-size: small;
   margin: 0.5em 0;
 
   i, em {
