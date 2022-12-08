@@ -6,7 +6,7 @@ title: Memorias de Geotecnia 🌙
 
 # Memorias
 * [Acerca del Ensayo de Penetración Estándar (SPT)](notes/2022-04-25.md)
-* [Sobre la Influencia del Confinamiento en el Ensayo de Penetración Estándar (SPT)](notes/2022-04-27.md)
+* [Sobre la Influencia de la Sobrecarga en el Ensayo de Penetración Estándar (SPT)](notes/2022-04-27.md)
 * [La Presión Neutral y el Exceso de Presión de Poros](notes/2022-05-03.md)
 
 # Acerca de mí
