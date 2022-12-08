@@ -11,6 +11,6 @@ title: Memorias de Geotecnia 🌙
 
 # Acerca de mí
 
-Gracias por darte un salto. Soy Francesco, egresado de Ingeniería Civil en la Universidad Nacional de Ingeniería (Perú) 🍂, actualmente estudiante de Ingeniería Geofísica en el Instituto Politécnico Nacional (México) 🍃. En mis ratos libres suele disfrutar componiendo canciones, leyendo o paseando con mi amada Bianca 🐶.
+Gracias por darte un salto. Soy Francesco, egresado de Ingeniería Civil en la Universidad Nacional de Ingeniería (Perú) 🍂, actualmente estudiante de Ingeniería Geofísica en el Instituto Politécnico Nacional (México) 🍃. En mis ratos libres suelo disfrutar componiendo canciones, leyendo o paseando con mi amada Bianca 🐶.
 
 ![Cover](/notes/images/index.jpg)
