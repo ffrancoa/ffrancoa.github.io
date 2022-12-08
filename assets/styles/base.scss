@@ -1,7 +1,7 @@
 // Replace this with your own font imports!
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400&family=Red+Hat+Mono:wght@500;700&family=Vollkorn:ital@1&family=DM+Mono:wght@500&display=block');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Red+Hat+Mono:wght@500;700&family=Vollkorn:ital@1&family=DM+Mono:wght@500&display=block');
 :root {
-  --font-body: "Poppins";
+  --font-body: "DM Sans";
   --font-header: "Vollkorn";
   --font-mono: "Red Hat Mono";
   --font-special: "DM Mono";
@@ -78,7 +78,7 @@ text {
   cursor: zoom-in;
   font-family: Inter;
   color: var(--dark);
-  font-weight: 700;
+  font-weight: bold;
 }
 
 .mainTOC details[open] summary {
@@ -113,7 +113,7 @@ text {
   &>li::marker,
   &>li>ol>li::marker {
     font-family: Source Sans Pro;
-    font-weight: 700;
+    font-weight: bold;
   }
 }
 
@@ -148,7 +148,7 @@ p,
 tbody,
 li {
   font-family: var(--font-body);
-  font-size: 0.90em;
+  font-size: 0.95rem;
   font-weight: 100;
   color: var(--gray);
   text-align: justify;
@@ -167,7 +167,7 @@ blockquote {
 
   i, em {
     color: var(--reference-author);
-    font-weight: 600;
+    font-weight: bold;
   }
 
   a {
@@ -187,14 +187,14 @@ th {
   background-color: var(--table-background);
   color: var(--table-header);
   font-family: var(--font-body);
-  font-size: 0.90em;
+  font-size: 0.95rem;
 }
 
 td {
   border: 1px solid var(--lightgray);
   padding: 0.35em 0.5em;
   background-color: var(--table-body-background);
-  font-family: var(--font-mono);
+  font-family: var(--font-special);
   font-size: small;
 }
 
@@ -228,7 +228,7 @@ dd { // Example body
 
 // Bibliography
 .footnotes p {
-  font-size: 0.80rem;
+  font-size: 0.90rem;
   margin: 0.5em 0;
 
   i, em {
@@ -283,7 +283,7 @@ article {
 
   & a {
     font-family: var(--font-body);
-    font-weight: 600;
+    font-weight: bold;
 
     &.internal-link {
       text-decoration: none;
@@ -337,7 +337,7 @@ article {
 }
 
 .backlinks a {
-  font-weight: 600;
+  font-weight: bold;
   font-size: 0.85rem;
 }
 
@@ -349,7 +349,7 @@ sup>a {
 a {
   font-family: var(--font-body);
   font-size: 1em;
-  font-weight: 700;
+  font-weight: bold;
   text-decoration: dashed;
   transition: all 0.2s ease;
   color: var(--secondary);
@@ -491,7 +491,7 @@ header {
   align-items: center;
 
   &>h1 {
-    font-size: 2.60em; // Page Title Size
+    font-size: 2.64em; // Page Title Size
   }
 
   &>nav {
@@ -666,7 +666,7 @@ header {
 .popover {
   z-index: 999;
   position: absolute;
-  width: 20em;
+  width: 20rem;
   display: none;
   background-color: var(--light);
   padding: 1em;
